@@ -20,7 +20,7 @@ int GetSum (int []array){
     for (int i =0; i< array.Length; i++)
     {
         int elements = array [i];
-        if (i %2 ==0) {
+        if (i %2 !=0) {
             Sumposition = elements+Sumposition;
         }  
     }
